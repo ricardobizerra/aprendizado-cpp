@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     int number;
-    cout << "DIGITE UM INTEIRO: ";
+    cout << "Digite um inteiro: ";
     cin >> number;
 
     // conditional
@@ -26,13 +26,11 @@ int main(){
     }
 
     else{
-
         // brackets can be deleted
         if (a != b && a != c && b != c)
             cout << "Triangulo escaleno" << endl;
         else
             cout << "Triangulo isosceles" << endl;
-
     }
 
     return 0;

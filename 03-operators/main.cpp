@@ -38,18 +38,22 @@ int main(){
 
     // assignment operations
     int x = 2;
+
     x = 3; // attributing new value to x
     x += 7; // same as x = x + 7
     cout << x << endl;
+
     x = 3;
     x -= 7; // same as x = x - 7
     cout << x << endl;
+
     x = 3;
     x *= 7; // same as x = x * 7
     cout << x << endl;
     x = 3;
     x /= 7; // same as x = x / 7
     cout << x << endl;
+
     x = 3;
     x %= 7; // same as x = x % 7
     cout << x << endl;
